@@ -12,15 +12,15 @@ if os.path.exists('README.rst'):
 
 setup(
     name='summpy-fix',
-    version='1.0.0',
-    description='Text summarization (sentence extraction) module with simple HTTP API. (currently, supports Japanese only)',
+    version='1.0.1',
+    description='originally from Summpy. this is bug fix version of Summpy.',
     long_description=long_description,
     author='OnetapInc',
     author_email='onetap0507@gmail.com',
     license='MIT',
     url='https://github.com/OnetapInc/summpy-fix',
-    packages=['summpy-fix', 'summpy.misc'],
-    package_data={'summpy-fix': ['server_data/*.html']},
+    packages=['summpy', 'summpy.misc'],
+    package_data={'summpy': ['server_data/*.html']},
     install_requires=[
         'numpy', 'scipy', 'scikit-learn', 'networkx', 'cherrypy'
     ],
