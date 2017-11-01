@@ -29,3 +29,8 @@ pip install mecab-python
 python2.7 -m summpy.server -h 127.0.0.1 -p 8080
 curl http://127.0.0.1:8080/summarize\?sent_limit\=3\&text\=要約したい文章を入力。
 ```
+
+## Production Usage
+this library has been used in these services.
+[TravelMe](https://travelme.jp) is provided by [Onetap Inc](https://onetap.amebaownd.com/)
+
