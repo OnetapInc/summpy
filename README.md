@@ -32,5 +32,5 @@ curl http://127.0.0.1:8080/summarize\?sent_limit\=3\&text\=要約したい文章
 
 ## Production Usage
 this library has been used in these services.
-[TravelMe](https://travelme.jp) is provided by [Onetap Inc](https://onetap.amebaownd.com/)
+[TravelMe](https://travelme.jp/articles) is provided by [Onetap Inc](https://onetap.amebaownd.com/)
 
